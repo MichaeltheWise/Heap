@@ -7,6 +7,9 @@ Created on Sat Apr 10 2021
 
 
 class MinHeap(dict):
+    """
+    Using GeeksforGeeks implementation as a template
+    """
     def __init__(self, max_size):
         super(MinHeap, self).__init__(self)
         self.__dict__ = self
@@ -101,12 +104,15 @@ def main():
     min_heap.insert(53)
     print("\nBEFORE MIN REMOVAL: ")
     min_heap.print_format()
+    min_heap.print()
     min_heap.remove()
     print("\nAFTER MIN REMOVAL: ")
     min_heap.print_format()
+    min_heap.print()
     min_heap.remove()
     print("\nAFTER MIN REMOVAL: ")
     min_heap.print_format()
+    min_heap.print()
 
 
 if __name__ == '__main__':
