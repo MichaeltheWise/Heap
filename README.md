@@ -1,2 +1,2 @@
 # MinHeap
-Implementation of minHeap in python to better understand of how it works
+Implementation of MinHeap in Python 3 to better understand of how it works
