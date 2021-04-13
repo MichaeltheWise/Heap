@@ -23,7 +23,9 @@ class MaxHeap(dict):
         :param pos: position
         :return: parent position
         """
-        return pos // 2
+        if pos < 2:
+            return pos // 2
+        return (pos - 1) // 2
 
     def left_child(self, pos):
         """
